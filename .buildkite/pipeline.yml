@@ -1,9 +1,9 @@
 steps:
   - label: ':christmas_tree: On the first day of Christmas my true love sent to me...'
     command: ./scripts/day1.sh
-    if: build.number > 12
+    if: build.number == 14 || build.number == 15
 
   - label: ':gift: On the second day of Christmas my true love sent to me...'
     command:
       - "echo \"\n\nTwo turtle doves, and a partridge in a pear tree\""
-    if: build.number > 13
+    if: build.number == 15
