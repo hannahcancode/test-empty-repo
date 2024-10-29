@@ -1,1 +1,1 @@
-echo "\n\nA partridge in a pear tree\n\n"
+echo -e "\n\nA partridge in a pear tree\n\n"

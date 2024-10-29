@@ -1,8 +1,8 @@
 steps:
   - label: ':christmas_tree: On the first day of Christmas my true love sent to me...'
     command: ./scripts/day1.sh
-    if: build.number == 16 || build.number == 17
+    if: build.number == 17 || build.number == 18
 
   - label: ':gift: On the second day of Christmas my true love sent to me...'
     command: ./scripts/day2.sh
-    if: build.number == 17
+    if: build.number == 18
