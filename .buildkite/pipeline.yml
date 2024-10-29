@@ -1,9 +1,9 @@
 steps:
   - label: ':christmas_tree: On the first day of Christmas my true love sent to me...'
     command: "echo \"\n\nA partridge in a pear tree\""
-    if: build.number == 10
+    if: build.number == 11
 
   - label: ':gift: On the second day of Christmas my true love sent to me...'
     command:
       - "echo \"\n\nTwo turtle doves, and a partridge in a pear tree\""
-    if: build.number == 11
+    if: build.number == 12
